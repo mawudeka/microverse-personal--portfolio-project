@@ -1,13 +1,28 @@
-#welcome-section{
- 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,300&display=swap');
 
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	max-height: 100vh;
+	font-family: 'Poppins', sans-serif;
 }
-.container{
-    background-color: grey;
-}
-#navbar{
-    border
-    background-color: #be3144;
-    align-items: right;
 
+#navbar {
+	background-color: brown;
+	height: 70px;
+}
+#navbar a {
+	color: white;
+	text-decoration: none;
+}
+#navbar ul {
+	text-align: right;
+	padding-right: 50px;
+}
+li {
+	display: inline-block;
+	color: white;
+	text-align: right;
+	padding-left: 30px;
 }
