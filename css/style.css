@@ -63,9 +63,10 @@ h1{
 }
 
 #projects{
-	
+	max-width: 640px;
 	text-align: center;
-	gap: 20px;
+	padding: 10rem 2rem;
+	
 }	
 
 #projects h1{
